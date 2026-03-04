@@ -1,4 +1,4 @@
-package com.simplekafka.broker.ResultTypes;
+package com.simplekafka.broker.MethodReturnTypes;
 
 public class FetchResult {
     private final String topic;

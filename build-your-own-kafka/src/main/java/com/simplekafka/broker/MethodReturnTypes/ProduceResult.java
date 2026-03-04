@@ -1,4 +1,4 @@
-package com.simplekafka.broker;
+package com.simplekafka.broker.MethodReturnTypes;
 
 public class ProduceResult {
     private final long offset;

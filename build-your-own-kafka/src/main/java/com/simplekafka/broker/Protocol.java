@@ -60,7 +60,7 @@ public class Protocol {
     }
 
     public static ByteBuffer encodeMetadataRequest(){
-        ByteBuffer buffer = ByteBuffer.allocate(1024);
+        ByteBuffer buffer = ByteBuffer.allocate(1);
         buffer.put(METADATA);
         buffer.flip();
         return buffer;

@@ -1,10 +1,10 @@
-package com.simplekafka.broker.ResultTypes;
+package com.simplekafka.broker.MethodReturnTypes;
 
-public class ProduceMessage {
+public class ProduceRequest {
     private final String topic;
     private final int partition;
     private final byte[] message;
-    public ProduceMessage(String topic, int partition, byte[] message) {
+    public ProduceRequest(String topic, int partition, byte[] message) {
         this.topic = topic;
         this.partition = partition;
         this.message = message;
@@ -18,4 +18,5 @@ public class ProduceMessage {
     public byte[] getMessage() {
         return message;
     }
+
 }
